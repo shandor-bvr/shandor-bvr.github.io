@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airia Embed</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module">
+        import AiriaChat from "https://brainfreeze.chat.airia.ai/api/get-chat-embed"
+        AiriaChat.init({pipelineId: "0344e338-e903-434f-ae2d-ccbc72d3ab6f",
+                        apiKey: "ak-MTM1MjYwNzQyNnwxNzUzMTA4OTUzNDM1fEJlYXZlciBDb3VudHJ5IERheSBTY2hvb2wtfDF8MzI2NDY0NzQxMCAg",
+                        apiUrl: "https://brainfreeze.embed-api.airia.ai",
+                        greeting: "Hello! How can I assist you today?",
+                        imagePath: "https://yoursite.com/assets/chatbot-icon.png",
+                        imageSize: "small",
+                        imageBgColor: "#FFFFFF"})
+    </script>
+  </body>
+</html>
